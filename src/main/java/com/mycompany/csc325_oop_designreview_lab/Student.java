@@ -10,6 +10,10 @@ package com.mycompany.csc325_oop_designreview_lab;
  */
 public class Student extends Human {
 
+    //GPA field
+    private double gpa;
+    
+    
     @Override
     public String getAddress() {
         return this.address;
@@ -20,9 +24,21 @@ public class Student extends Human {
         this.address = address;
     }
 
-	// ToDo 2: Fix the resulting errors
+    /**
+     * created get method of the GPA instance
+     * @return 
+     */
+    public double getGpa() {
+        return gpa;
+    }
 
-	// ToDo 3: Add a field for GPA and create setter and getter
+    /**
+     * created set method of the GPA instance
+     * @param gpa 
+     */
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
 	
 	// ToDo 4: Add comments to your code
 }
