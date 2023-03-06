@@ -10,10 +10,8 @@ package com.mycompany.csc325_oop_designreview_lab;
  */
 public class MainClass {
 
- public static void main(String[] args) {
+ public static void main(String[] args) throws Exception {
 
-
-                // ToDo 8: The senior class should have a minimum of 85 credits  
 
 		// ToDo 7: Add a toString method for Student class
 		// ToDo 9: Add a toString method for Freshman class

@@ -17,6 +17,21 @@ public class Senior extends Student {
         super("", 0, 0);
     }
     
+    /**
+     * constructor sets name, age, and credits to the superclass class Student
+     * @param name
+     * @param age
+     * @param credits
+     * @throws Exception 
+     */
+    public Senior(String name, int age, int credits) throws Exception {
+        super(name, age, credits);
+        if (credits < 85){
+            Exception e =new Exception (
+            "You must have 85 or more credits to be a senior");
+            throw e;
+        }  
+    }
     
     
 }

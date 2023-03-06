@@ -17,4 +17,15 @@ public class Freshman extends Student {
         super("", 0, 0);
     }
     
+     /**
+     * constructor sets name, age, and credits to the superclass class Student 
+     * @param name
+     * @param age
+     * @param credits 
+     */
+    public Freshman(String name, int age, int credits){
+        super(name, age, credits);
+    }
+    
+    
 }
