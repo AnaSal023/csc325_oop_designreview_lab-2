@@ -27,7 +27,7 @@ public class Senior extends Student {
     public Senior(String name, int age, int credits) throws Exception {
         super(name, age, credits);
         if (credits < 85){
-            Exception e =new Exception (
+            Exception e = new Exception (
             "You must have 85 or more credits to be a senior");
             throw e;
         }  

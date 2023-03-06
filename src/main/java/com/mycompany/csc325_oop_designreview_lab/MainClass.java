@@ -31,9 +31,6 @@ public class MainClass {
                 std2.setGpa(scannerGPA);
                 //printing student gpa
                 System.out.println("Student 2 GPA: " + std2.getGpa());
-		
-		// ToDo 11: Set the gpa of the student using the scanner and user
-		// 			input and then print the output.
 
 		System.out.println(std1);
 
