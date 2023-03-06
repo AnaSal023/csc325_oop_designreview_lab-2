@@ -12,7 +12,6 @@ public class MainClass {
 
  public static void main(String[] args) {
 
-		// ToDo 6: Fix the constructor of Student class
 
                 // Todo 7: Create two classes for Freshman and Senior 
 

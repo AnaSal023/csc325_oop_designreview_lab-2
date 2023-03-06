@@ -10,8 +10,26 @@ package com.mycompany.csc325_oop_designreview_lab;
  */
 public class Student extends Human {
 
-    //GPA field
+    //GPA instance
     private double gpa;
+    
+    //credits instance
+    private int credits;
+    //default constructor
+    public Student() {
+        super("", 0);
+        this.credits = 0;
+    }
+    /**
+     * constructor sets name and age to superclass and credits to the credits instance from this class
+     * @param name
+     * @param age
+     * @param credits 
+     */
+    public Student(String name, int age, int credits) {
+        super(name, age);
+        this.credits = credits;
+    }
     
     /**
      * implemented and override the abstract get address method of the abstract Human superclass
