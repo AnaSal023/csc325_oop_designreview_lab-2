@@ -13,12 +13,19 @@ public class Student extends Human {
     //GPA field
     private double gpa;
     
-    
+    /**
+     * implemented and override the abstract get address method of the abstract Human superclass
+     * @return 
+     */
     @Override
     public String getAddress() {
         return this.address;
     }
 
+    /**
+     * implemented and override the abstract set address method of the abstract Human superclass
+     * @param address 
+     */
     @Override
     public void setAddress(String address) {
         this.address = address;
@@ -40,5 +47,4 @@ public class Student extends Human {
         this.gpa = gpa;
     }
 	
-	// ToDo 4: Add comments to your code
 }
