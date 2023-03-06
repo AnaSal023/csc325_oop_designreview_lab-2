@@ -27,5 +27,20 @@ public class Freshman extends Student {
         super(name, age, credits);
     }
     
+    /**
+     * override to string method, print all the student information
+     * @return 
+     */
+    @Override
+    public String toString(){
+        if (this.getAddress() == null) {
+            this.setAddress("No address was entered");
+        }
+        return "Name: " + this.getName() + "\n" +
+                "Age: " + this.getAge() + "\n" +
+                "GPA: " + + this.getGpa() + "\n" +
+                "Credits: " + this.getCredits() + "\n" +
+                "Address: " + this.getAddress() + "\n";        
+    }
     
 }

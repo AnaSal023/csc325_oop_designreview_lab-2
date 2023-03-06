@@ -13,7 +13,6 @@ public class MainClass {
  public static void main(String[] args) throws Exception {
 
 
-		// ToDo 9: Add a toString method for Freshman class
 
                 // ToDo 10: Add a toString method for Senior class
 
