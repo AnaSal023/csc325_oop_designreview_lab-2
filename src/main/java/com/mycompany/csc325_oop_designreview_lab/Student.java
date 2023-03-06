@@ -65,4 +65,19 @@ public class Student extends Human {
         this.gpa = gpa;
     }
 	
+    /**
+     * created get method for credits instance
+     * @return 
+     */
+    public int getCredits() {
+        return credits;
+    }
+
+    /**
+     * created set method for credits instance
+     * @param credits 
+     */
+    public void setCredits(int credits) {
+        this.credits = credits;
+    }
 }
