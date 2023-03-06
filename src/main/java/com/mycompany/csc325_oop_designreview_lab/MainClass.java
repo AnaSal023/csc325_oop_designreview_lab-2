@@ -13,8 +13,6 @@ public class MainClass {
  public static void main(String[] args) {
 
 
-                // Todo 7: Create two classes for Freshman and Senior 
-
                 // ToDo 8: The senior class should have a minimum of 85 credits  
 
 		// ToDo 7: Add a toString method for Student class
