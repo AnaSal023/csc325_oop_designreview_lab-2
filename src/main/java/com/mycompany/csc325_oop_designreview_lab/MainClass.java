@@ -8,12 +8,12 @@ import java.util.Scanner;
 
 /**
  *
- * @author MoaathAlrajab
+ * @author MoaathAlrajab and Ana
  */
 public class MainClass {
 
  public static void main(String[] args) throws Exception {
-
+                //instance to hold the entered gpa by user
                 double scannerGPA;
 
 		Student std1= new Freshman("James", 20, 12); // name, age, credits
@@ -32,12 +32,19 @@ public class MainClass {
                 //printing student gpa
                 System.out.println("Student 2 GPA: " + std2.getGpa());
 
+                //trying if a senior student with credits less than 85 will get an error
+                Student std3 = null;
+                try { std3 = new Senior("Mary", 30, 65); }
+                catch (Exception e) {
+                    System.out.println(e);
+                }
+                
+                //print students information
 		System.out.println(std1);
 
                 System.out.println(std2);
 
-		// ToDo 9: add comments and explain your code
-		// ToDo 12: add comments and explain your code
+                System.out.println(std3);
 
 		// ToDo 10: submit using a pull request.
 		// ToDo 13: submit using a pull request.

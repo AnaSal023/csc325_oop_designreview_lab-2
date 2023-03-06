@@ -6,7 +6,7 @@ package com.mycompany.csc325_oop_designreview_lab;
 
 /**
  *
- * @author MoaathAlrajab
+ * @author MoaathAlrajab and Ana
  */
 public class Student extends Human {
 
